@@ -16,9 +16,13 @@
     "@astrojs/rss": "^3.0.0",
     "@astrojs/sitemap": "^3.0.0",
     "@astrojs/tailwind": "^5.0.0",
+    "@octokit/rest": "^20.0.2",
+    "@octokit/types": "^12.4.0",
     "astro": "^3.2.3",
     "daisyui": "^3.2.1",
     "dayjs": "^1.11.9",
+    "node-fetch": "^3.3.2",
+    "octokit": "^3.1.2",
     "sharp": "^0.32.5"
   },
   "devDependencies": {
