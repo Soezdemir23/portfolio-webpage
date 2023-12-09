@@ -37,8 +37,12 @@ const storeSchema = z.object({
 const projectSchema = z.object({
   title: z.string(),
   description: z.string(),
-  repo_link: z.string(),
-  live_link: z.string().optional(),
+  pubDate: z.string(),
+  updatedDate: z.string().optional(),
+  heroImage: z.string().optional(),
+  repoLink: z.string(),
+  liveLink: z.string().optional(),
+
   tags: z
     .array(z.string())
     .refine(
